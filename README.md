@@ -245,3 +245,7 @@ Dockerfile, docker-compose.yml   (opcional) base de datos y ETL en contenedores
 **Aún no probado o con problemas conocidos:**
 - La alternativa con Docker.
 - En Power BI, actualizar todas las tablas a la vez falló con un error de «referencia cíclica»; actualizar tabla por tabla funciona.
+
+## Licencia
+
+El código está bajo licencia MIT (ver [`LICENSE`](LICENSE)). Los datos son de ChileCompra y no se incluyen en el repositorio.
