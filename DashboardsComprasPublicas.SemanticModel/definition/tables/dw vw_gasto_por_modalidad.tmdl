@@ -1,0 +1,87 @@
+table 'dw vw_gasto_por_modalidad'
+	lineageTag: a145e57f-3866-4968-a0bc-2c22c7a98fb9
+
+	measure 'Monto total (mil millones)' = DIVIDE(SUM('dw vw_gasto_por_modalidad'[monto_clp]), 1000000000)
+		formatString: #,0
+		lineageTag: d098825b-79df-43a1-bb64-4f2b1e3d5e9b
+
+	measure 'N° de órdenes' = SUM('dw vw_gasto_por_modalidad'[n_oc])
+		formatString: #,0
+		lineageTag: a16978a2-6740-426d-83a0-72d2053c97ec
+
+	measure '% monto Trato Directo' = DIVIDE(CALCULATE(SUM('dw vw_gasto_por_modalidad'[monto_clp]), 'dw vw_gasto_por_modalidad'[modalidad] = "Trato Directo"), SUM('dw vw_gasto_por_modalidad'[monto_clp]))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 01992fce-ed28-403e-83ed-16f3e0101751
+
+	measure '% de las órdenes' = DIVIDE(SUM('dw vw_gasto_por_modalidad'[n_oc]), CALCULATE(SUM('dw vw_gasto_por_modalidad'[n_oc]), ALL('dw vw_gasto_por_modalidad'[modalidad])))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 7d3f80c5-8e15-457b-80ca-ccf337baef7b
+
+	measure '% del monto' = DIVIDE(SUM('dw vw_gasto_por_modalidad'[monto_clp]), CALCULATE(SUM('dw vw_gasto_por_modalidad'[monto_clp]), ALL('dw vw_gasto_por_modalidad'[modalidad])))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 82520025-b350-4aef-a620-95f9605faea8
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: df8aadfc-1258-4eb3-937d-b820f89dfa62
+		summarizeBy: sum
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column semestre
+		dataType: int64
+		formatString: 0
+		lineageTag: d1c7ff4e-4075-4227-9e88-5ceaa9a3e604
+		summarizeBy: sum
+		sourceColumn: semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column modalidad
+		dataType: string
+		lineageTag: 66718ea0-fc3c-49fb-b72a-8e15f123a22f
+		summarizeBy: none
+		sourceColumn: modalidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_oc
+		dataType: int64
+		formatString: 0
+		lineageTag: 12bf554a-5ed6-4d55-b979-edd8ea22e112
+		summarizeBy: sum
+		sourceColumn: n_oc
+
+		annotation SummarizationSetBy = Automatic
+
+	column monto_clp
+		dataType: double
+		lineageTag: d22dfd97-b5d4-4f7e-a801-03e6264d9662
+		summarizeBy: sum
+		sourceColumn: monto_clp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pct_monto
+		dataType: double
+		lineageTag: 435194c7-02d5-4606-8bd0-d7d5b6489acd
+		summarizeBy: sum
+		sourceColumn: pct_monto
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'dw vw_gasto_por_modalidad' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_gasto_por_modalidad = Origen{[Schema="dw",Item="vw_gasto_por_modalidad"]}[Data]
+				in
+				    dw_vw_gasto_por_modalidad
+

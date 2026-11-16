@@ -1,0 +1,68 @@
+table 'dw vw_top_proveedores_organismo'
+	lineageTag: 7b7446e4-12b2-4fe7-bd21-533da6762792
+
+	column organismo
+		dataType: string
+		lineageTag: 364eae4a-08d8-4a1b-9502-7231e7281190
+		summarizeBy: none
+		sourceColumn: organismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedor
+		dataType: string
+		lineageTag: 112ba2dd-756e-4d86-aa87-9b56a4732b99
+		summarizeBy: none
+		sourceColumn: proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_oc
+		dataType: int64
+		formatString: 0
+		lineageTag: a31af878-1efa-40ba-aab9-dfdc805d2872
+		summarizeBy: sum
+		sourceColumn: n_oc
+
+		annotation SummarizationSetBy = Automatic
+
+	column monto_clp
+		dataType: double
+		lineageTag: 874cff1d-e60c-45ec-a490-b3592ae0f5a0
+		summarizeBy: sum
+		sourceColumn: monto_clp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column pct_organismo
+		dataType: double
+		lineageTag: 9e4c8263-6973-476e-a0ae-1228fb486072
+		summarizeBy: sum
+		sourceColumn: pct_organismo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ranking
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f59845c-07e2-4346-a15b-6407e09c03d0
+		summarizeBy: sum
+		sourceColumn: ranking
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'dw vw_top_proveedores_organismo' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_top_proveedores_organismo = Origen{[Schema="dw",Item="vw_top_proveedores_organismo"]}[Data]
+				in
+				    dw_vw_top_proveedores_organismo
+
+	annotation PBI_ResultType = Table
+

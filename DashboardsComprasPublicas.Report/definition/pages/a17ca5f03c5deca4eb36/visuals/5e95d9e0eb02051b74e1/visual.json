@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "5e95d9e0eb02051b74e1",
+  "position": {
+    "x": 32.107023411371237,
+    "y": 120,
+    "z": 0,
+    "height": 64,
+    "width": 600,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_concentracion_organismo"
+                    }
+                  },
+                  "Property": "organismo"
+                }
+              },
+              "queryRef": "dw vw_concentracion_organismo.organismo",
+              "nativeQueryRef": "organismo",
+              "displayName": "Organismo",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

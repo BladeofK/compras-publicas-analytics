@@ -1,0 +1,225 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "2ce100153d0e1323daad",
+  "position": {
+    "x": 32.107023411371237,
+    "y": 282,
+    "z": 2000,
+    "height": 422,
+    "width": 1215.7859531772576,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "oc_codigo"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.oc_codigo",
+              "nativeQueryRef": "oc_codigo",
+              "displayName": "Orden de compra"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "organismo"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.organismo",
+              "nativeQueryRef": "organismo",
+              "displayName": "Organismo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "rubro"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.rubro",
+              "nativeQueryRef": "rubro",
+              "displayName": "Rubro"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "monto_clp"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.monto_clp",
+              "nativeQueryRef": "monto_clp",
+              "displayName": "Monto de la orden ($)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "p99_rubro"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.p99_rubro",
+              "nativeQueryRef": "p99_rubro",
+              "displayName": "Umbral del rubro, p99 ($)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dw vw_oc_atipicas"
+                  }
+                },
+                "Property": "monto_clp"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "130D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.oc_codigo"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "300D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.organismo"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "390D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.rubro"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "170D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.monto_clp"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "170D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.p99_rubro"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Órdenes atípicas, de mayor a menor monto'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

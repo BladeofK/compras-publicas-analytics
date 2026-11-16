@@ -1,0 +1,302 @@
+Codigo;Estado;FechaEnvio;FechaAceptacion;Tipo;NombreOrganismo;RutOrganismo;NombreProveedor;RutProveedor;Rubro;MontoTotal
+SIM-00001;Aceptada;2025-03-12;2025-03-13;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;1759014
+SIM-00002;Aceptada;2025-01-24;2025-01-28;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;686101
+SIM-00003;Aceptada;2025-01-02;2025-01-03;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;779.757
+SIM-00004;Aceptada;2025-04-08;2025-04-14;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;296447
+SIM-00005;Aceptada;2025-04-07;2025-04-09;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 11 SpA;76.111.000-1;Servicios profesionales;2256840
+SIM-00006;Aceptada;2025-01-12;2025-01-18;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;287.246
+SIM-00007;Aceptada;sin dato;2025-06-13;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;324517
+SIM-00008;Aceptada;sin dato;2025-03-07;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;697321
+SIM-00009;Aceptada;2025-03-22;2025-03-22;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Construcción;1.247.127
+SIM-00010;Aceptada;05-02-2025;2025-02-09;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;591691
+SIM-00011;Aceptada;2025-02-05;2025-02-05;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;202828
+SIM-00012;Aceptada;2025-06-02;;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;2.956.909
+SIM-00013;Aceptada;2025-03-29;2025-04-01;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;1973068
+SIM-00014;Aceptada;2025-03-18;2025-03-22;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 06 SpA;76.106.000-6;Servicios profesionales;563957
+SIM-00015;Aceptada;2025-05-06;2025-05-08;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;300.868
+SIM-00016;Aceptada;2025-05-17;2025-05-18;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;116085
+SIM-00017;Aceptada;2025-04-13;;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;731863
+SIM-00018;Aceptada;2025-03-28;2025-04-01;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;230.239
+SIM-00019;Aceptada;2025-01-09;2025-01-09;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;459100
+SIM-00020;Aceptada;27-05-2025;2025-05-28;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;7203554
+SIM-00021;Aceptada;2025-04-01;2025-04-04;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;1.002.940
+SIM-00022;Aceptada;2025-01-28;2025-01-29;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;479087
+SIM-00023;Aceptada;2025-01-20;2025-01-26;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;826495
+SIM-00024;Aceptada;2025-05-05;2025-05-11;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;362.805
+SIM-00025;Aceptada;2025-04-27;2025-05-02;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;642890
+SIM-00026;Aceptada;2025-01-15;2025-01-19;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;132317
+SIM-00027;Aceptada;2025-05-16;2025-05-20;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;167.173
+SIM-00028;Aceptada;2025-05-26;2025-05-30;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;875945
+SIM-00029;Aceptada;2025-03-22;2025-03-25;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Computación;62011
+SIM-00030;Aceptada;09-06-2025;;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;211.786
+SIM-00031;Aceptada;2025-02-10;2025-02-14;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;1189587
+SIM-00032;Aceptada;2025-01-27;;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 08 SpA;76.108.000-8;Computación;84137
+SIM-00033;Aceptada;2025-02-22;2025-02-28;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;185.203
+SIM-00034;Aceptada;2025-01-12;2025-01-18;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Servicios profesionales;140906
+SIM-00035;Aceptada;2025-06-26;;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;744250
+SIM-00036;Aceptada;2025-04-04;2025-04-10;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;190.238
+SIM-00037;Aceptada;2025-02-09;;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 11 SpA;76.111.000-1;Construcción;244460
+SIM-00038;Aceptada;2025-03-27;2025-03-30;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;984412
+SIM-00039;Aceptada;2025-02-26;2025-03-01;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 06 SpA;76.106.000-6;Aseo;91.047
+SIM-00040;Aceptada;13-04-2025;2025-04-19;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;249554
+SIM-00041;Aceptada;2025-03-08;2025-03-10;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 06 SpA;76.106.000-6;Servicios profesionales;113155
+SIM-00042;Aceptada;2025-05-28;2025-05-28;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;2.520.586
+SIM-00043;Aceptada;2025-06-20;;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;882417
+SIM-00044;Aceptada;2025-03-25;2025-03-27;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;502351
+SIM-00045;Aceptada;2025-01-01;2025-01-02;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;322.866
+SIM-00046;Aceptada;2025-02-24;2025-03-02;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;478992
+SIM-00047;Aceptada;2025-02-27;2025-02-28;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;323756
+SIM-00048;Aceptada;2025-05-28;2025-06-02;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 07 SpA;76.107.000-7;Alimentos;307.216
+SIM-00049;Aceptada;2025-02-26;2025-03-03;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 05 SpA;76.105.000-5;Alimentos;458483
+SIM-00050;Aceptada;29-04-2025;2025-05-03;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;16278899
+SIM-00051;Aceptada;2025-05-21;2025-05-22;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Aseo;1.061.572
+SIM-00052;Aceptada;2025-05-14;2025-05-15;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;278987
+SIM-00053;Aceptada;2025-05-19;2025-05-20;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;84371
+SIM-00054;Aceptada;2025-05-19;2025-05-19;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;170.403
+SIM-00055;Aceptada;2025-04-01;2025-04-04;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;241532
+SIM-00056;Aceptada;2025-05-05;2025-05-07;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;2145164
+SIM-00057;Aceptada;2025-05-17;2025-05-20;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 12 SpA;76.112.000-2;Construcción;740.119
+SIM-00058;Aceptada;2025-02-16;2025-02-19;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 06 SpA;76.106.000-6;Construcción;243417
+SIM-00059;Aceptada;2025-04-18;2025-04-18;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Computación;353888
+SIM-00060;Aceptada;16-06-2025;2025-06-16;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;52.369
+SIM-00061;Aceptada;2025-02-12;2025-02-17;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;2826012
+SIM-00062;Aceptada;2025-03-21;2025-03-24;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;223167
+SIM-00063;Aceptada;2025-03-19;2025-03-23;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;503.706
+SIM-00064;Aceptada;2025-03-29;2025-04-01;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;873300
+SIM-00065;Aceptada;2025-05-14;;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;46069
+SIM-00066;Aceptada;2025-06-01;2025-06-07;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;206.981
+SIM-00067;Aceptada;2025-05-07;2025-05-08;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;426592
+SIM-00068;Aceptada;2025-06-29;2025-07-03;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 07 SpA;76.107.000-7;Construcción;404687
+SIM-00069;Aceptada;2025-01-24;2025-01-27;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Construcción;745.380
+SIM-00070;Aceptada;21-05-2025;2025-05-26;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;390082
+SIM-00071;Aceptada;2025-05-18;;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;689604
+SIM-00072;Aceptada;2025-02-19;2025-02-21;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 12 SpA;76.112.000-2;Servicios profesionales;483.479
+SIM-00073;Aceptada;2025-02-02;2025-02-08;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;386453
+SIM-00074;Aceptada;2025-02-17;;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;426419
+SIM-00075;Aceptada;2025-03-19;2025-03-20;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;1.154.021
+SIM-00076;Aceptada;2025-04-24;2025-04-28;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;794173
+SIM-00077;Aceptada;2025-01-21;2025-01-22;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;496988
+SIM-00078;Aceptada;2025-03-01;2025-03-03;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;892.341
+SIM-00079;Aceptada;2025-05-20;2025-05-21;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;104174
+SIM-00080;Aceptada;19-03-2025;2025-03-21;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;443192
+SIM-00081;Aceptada;2025-03-24;2025-03-24;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 07 SpA;76.107.000-7;Computación;1.967.785
+SIM-00082;Aceptada;2025-02-14;2025-02-19;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 05 SpA;76.105.000-5;Construcción;380397
+SIM-00083;Aceptada;2025-04-15;2025-04-20;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;181834
+SIM-00084;Aceptada;2025-04-13;2025-04-17;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;260.795
+SIM-00085;Aceptada;2025-05-19;2025-05-19;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;175650
+SIM-00086;Aceptada;2025-05-21;2025-05-23;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;300436
+SIM-00087;Aceptada;2025-03-21;2025-03-25;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;353.645
+SIM-00088;Aceptada;2025-02-09;2025-02-14;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;116623
+SIM-00089;Aceptada;2025-05-22;2025-05-23;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;2233053
+SIM-00090;Aceptada;17-04-2025;2025-04-23;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;479.917
+SIM-00091;Aceptada;2025-04-25;2025-04-27;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Construcción;116604
+SIM-00092;Aceptada;2025-06-28;2025-07-01;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 06 SpA;76.106.000-6;Computación;47096
+SIM-00093;Aceptada;2025-04-08;2025-04-13;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;2.160.032
+SIM-00094;Aceptada;2025-06-01;2025-06-01;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;1562240
+SIM-00095;Aceptada;2025-06-17;;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;136353
+SIM-00096;Aceptada;2025-05-17;2025-05-19;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 06 SpA;76.106.000-6;Servicios profesionales;3.707.161
+SIM-00097;Aceptada;2025-03-02;2025-03-04;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;385306
+SIM-00098;Aceptada;2025-01-08;2025-01-14;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;119889
+SIM-00099;Aceptada;2025-05-25;2025-05-26;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;2.786.194
+SIM-00100;Aceptada;13-06-2025;2025-06-15;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;9963368
+SIM-00101;Aceptada;2025-03-30;;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;857000
+SIM-00102;Aceptada;2025-01-28;2025-02-01;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Alimentos;303.157
+SIM-00103;Aceptada;2025-05-25;2025-05-31;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;718931
+SIM-00104;Aceptada;2025-04-01;2025-04-02;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;898035
+SIM-00105;Aceptada;2025-04-23;2025-04-25;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;716.345
+SIM-00106;Aceptada;2025-02-03;2025-02-05;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;867154
+SIM-00107;Aceptada;2025-03-17;2025-03-19;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 10 SpA;76.110.000-0;Aseo;1302543
+SIM-00108;Aceptada;2025-06-22;;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 06 SpA;76.106.000-6;Computación;131.914
+SIM-00109;Aceptada;2025-06-22;2025-06-24;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;1086613
+SIM-00110;Aceptada;08-06-2025;2025-06-12;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;192452
+SIM-00111;Aceptada;2025-01-30;2025-01-30;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;213.709
+SIM-00112;Aceptada;2025-04-05;2025-04-10;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;990914
+SIM-00113;Aceptada;2025-06-07;2025-06-09;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 06 SpA;76.106.000-6;Construcción;109003
+SIM-00114;Aceptada;2025-01-26;;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 06 SpA;76.106.000-6;Alimentos;34.658
+SIM-00115;Aceptada;2025-02-01;;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;867628
+SIM-00116;Aceptada;2025-03-27;2025-03-28;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;874469
+SIM-00117;Aceptada;2025-03-01;2025-03-02;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;1.703.492
+SIM-00118;Aceptada;2025-02-14;2025-02-20;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;907163
+SIM-00119;Aceptada;2025-02-02;2025-02-06;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;379647
+SIM-00120;Aceptada;12-01-2025;2025-01-18;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 09 SpA;76.109.000-9;Alimentos;679.678
+SIM-00121;Aceptada;2025-04-20;2025-04-23;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Computación;909208
+SIM-00122;Aceptada;2025-03-12;2025-03-16;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;506472
+SIM-00123;Aceptada;2025-06-29;2025-07-04;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;1.517.639
+SIM-00124;Aceptada;2025-04-16;2025-04-19;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 07 SpA;76.107.000-7;Construcción;218211
+SIM-00125;Aceptada;2025-04-06;;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;865083
+SIM-00126;Aceptada;2025-04-06;2025-04-10;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;629.540
+SIM-00127;Aceptada;2025-01-14;;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Aseo;592585
+SIM-00128;Aceptada;2025-01-28;2025-02-01;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;154388
+SIM-00129;Aceptada;2025-06-18;2025-06-20;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Computación;130.202
+SIM-00130;Aceptada;06-02-2025;2025-02-09;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;485150
+SIM-00131;Aceptada;2025-03-25;2025-03-29;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;2098084
+SIM-00132;Aceptada;2025-03-11;2025-03-14;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;421.470
+SIM-00133;Aceptada;2025-01-29;2025-02-03;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;641469
+SIM-00134;Aceptada;2025-06-03;2025-06-04;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;275104
+SIM-00135;Aceptada;2025-01-02;2025-01-05;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;164.816
+SIM-00136;Aceptada;2025-01-11;2025-01-14;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;618543
+SIM-00137;Aceptada;2025-03-25;2025-03-29;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;347111
+SIM-00138;Aceptada;2025-03-04;2025-03-07;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 06 SpA;76.106.000-6;Computación;476.792
+SIM-00139;Aceptada;2025-02-13;2025-02-18;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;100076
+SIM-00140;Aceptada;07-02-2025;2025-02-08;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;990405
+SIM-00141;Aceptada;2025-05-25;2025-05-28;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;8.023.673
+SIM-00142;Aceptada;2025-05-01;2025-05-03;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;1738680
+SIM-00143;Aceptada;2025-04-26;2025-04-28;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;687133
+SIM-00144;Aceptada;2025-05-27;2025-05-29;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;658.286
+SIM-00145;Aceptada;2025-03-29;;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;48212
+SIM-00146;Aceptada;2025-05-15;2025-05-16;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 12 SpA;76.112.000-2;Construcción;19346
+SIM-00147;Aceptada;2025-01-14;2025-01-19;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Computación;277.756
+SIM-00148;Aceptada;2025-06-18;;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;555767
+SIM-00149;Aceptada;2025-03-21;;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 08 SpA;76.108.000-8;Computación;819123
+SIM-00150;Aceptada;26-03-2025;2025-03-31;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;449.690
+SIM-00151;Aceptada;2025-05-05;2025-05-06;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;175492
+SIM-00152;Aceptada;2025-06-08;2025-06-11;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;199486
+SIM-00153;Aceptada;2025-06-23;2025-06-26;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;1.027.738
+SIM-00154;Aceptada;2025-05-01;;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;73502
+SIM-00155;Aceptada;2025-05-09;2025-05-10;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;178112
+SIM-00156;Aceptada;2025-05-13;2025-05-15;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;363.478
+SIM-00157;Aceptada;2025-03-31;;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;339053
+SIM-00158;Aceptada;2025-04-06;2025-04-08;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 12 SpA;76.112.000-2;Alimentos;1717670
+SIM-00159;Aceptada;2025-05-01;2025-05-02;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 08 SpA;76.108.000-8;Alimentos;1.110.217
+SIM-00160;Aceptada;08-02-2025;2025-02-13;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;631750
+SIM-00161;Aceptada;2025-03-03;2025-03-09;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;566529
+SIM-00162;Aceptada;2025-05-28;2025-05-29;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;231.671
+SIM-00163;Aceptada;2025-05-15;2025-05-21;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;299496
+SIM-00164;Aceptada;2025-04-02;2025-04-04;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;106438
+SIM-00165;Aceptada;2025-04-01;2025-04-07;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;2.166.631
+SIM-00166;Aceptada;2025-01-17;2025-01-20;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;267163
+SIM-00167;Aceptada;2025-06-15;2025-06-17;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;662883
+SIM-00168;Aceptada;2025-04-09;2025-04-10;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;436.149
+SIM-00169;Aceptada;2025-06-04;;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;188370
+SIM-00170;Aceptada;20-03-2025;2025-03-25;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;282259
+SIM-00171;Aceptada;2025-04-01;2025-04-04;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;665.020
+SIM-00172;Aceptada;2025-06-23;2025-06-23;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 06 SpA;76.106.000-6;Computación;175745
+SIM-00173;Aceptada;2025-01-09;2025-01-14;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 09 SpA;76.109.000-9;Alimentos;380701
+SIM-00174;Aceptada;2025-04-12;2025-04-14;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;259.635
+SIM-00175;Aceptada;2025-01-31;2025-02-02;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 07 SpA;76.107.000-7;Construcción;722319
+SIM-00176;Aceptada;2025-01-19;2025-01-24;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;394925
+SIM-00177;Aceptada;2025-03-16;2025-03-22;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Computación;47.794
+SIM-00178;Aceptada;2025-02-21;2025-02-22;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;519974
+SIM-00179;Aceptada;2025-04-12;;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;1056847
+SIM-00180;Aceptada;23-03-2025;2025-03-26;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;387.089
+SIM-00181;Aceptada;2025-02-03;2025-02-09;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;202024
+SIM-00182;Aceptada;2025-05-13;2025-05-19;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 09 SpA;76.109.000-9;Aseo;164582
+SIM-00183;Aceptada;2025-01-24;2025-01-25;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;668.730
+SIM-00184;Aceptada;2025-05-25;2025-05-31;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 06 SpA;76.106.000-6;Servicios profesionales;831270
+SIM-00185;Aceptada;2025-01-08;2025-01-13;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;562521
+SIM-00186;Aceptada;2025-06-25;2025-06-28;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;354.697
+SIM-00187;Aceptada;2025-03-23;2025-03-29;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;272313
+SIM-00188;Aceptada;2025-04-30;2025-05-03;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;261270
+SIM-00189;Aceptada;2025-02-10;2025-02-14;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;740.487
+SIM-00190;Aceptada;20-03-2025;2025-03-20;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;2419035
+SIM-00191;Aceptada;2025-03-14;2025-03-20;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;766704
+SIM-00192;Aceptada;2025-03-09;2025-03-15;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;365.412
+SIM-00193;Aceptada;2025-03-15;2025-03-19;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;359286
+SIM-00194;Aceptada;2025-03-28;2025-03-30;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;806708
+SIM-00195;Aceptada;2025-02-05;2025-02-11;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;403.832
+SIM-00196;Aceptada;2025-06-07;2025-06-09;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;633480
+SIM-00197;Aceptada;2025-01-05;2025-01-10;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;125159
+SIM-00198;Aceptada;2025-06-17;2025-06-23;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;535.903
+SIM-00199;Aceptada;2025-06-11;2025-06-17;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;941704
+SIM-00200;Aceptada;23-04-2025;2025-04-24;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;359936
+SIM-00201;Aceptada;2025-05-24;2025-05-29;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;414.365
+SIM-00202;Aceptada;2025-06-23;2025-06-28;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;2513369
+SIM-00203;Aceptada;2025-03-05;2025-03-07;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;258549
+SIM-00204;Aceptada;2025-05-24;;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;952.903
+SIM-00205;Aceptada;2025-04-12;2025-04-18;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 07 SpA;76.107.000-7;Alimentos;994646
+SIM-00206;Aceptada;2025-06-17;2025-06-20;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 08 SpA;76.108.000-8;Aseo;165034
+SIM-00207;Aceptada;2025-05-31;2025-05-31;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;876.251
+SIM-00208;Aceptada;2025-05-01;2025-05-07;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;4962324
+SIM-00209;Aceptada;2025-03-15;2025-03-20;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;643273
+SIM-00210;Aceptada;15-02-2025;;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 07 SpA;76.107.000-7;Alimentos;862.706
+SIM-00211;Aceptada;2025-06-04;2025-06-06;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;519934
+SIM-00212;Aceptada;2025-01-29;2025-02-03;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;398559
+SIM-00213;Aceptada;2025-05-26;2025-05-27;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;456.605
+SIM-00214;Aceptada;2025-03-05;2025-03-08;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;58289
+SIM-00215;Aceptada;2025-04-03;2025-04-03;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;799915
+SIM-00216;Aceptada;2025-06-13;;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;162.162
+SIM-00217;Aceptada;2025-06-05;2025-06-10;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;527326
+SIM-00218;Aceptada;2025-05-16;2025-05-16;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Computación;131524
+SIM-00219;Aceptada;2025-02-22;2025-02-25;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;91.439
+SIM-00220;Aceptada;27-04-2025;2025-05-01;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;306297
+SIM-00221;Aceptada;2025-02-25;2025-02-25;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Alimentos;273599
+SIM-00222;Aceptada;2025-04-15;2025-04-16;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;711.358
+SIM-00223;Aceptada;2025-06-24;;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;999719
+SIM-00224;Aceptada;2025-04-11;2025-04-16;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 12 SpA;76.112.000-2;Servicios profesionales;345057
+SIM-00225;Aceptada;2025-03-05;2025-03-06;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;714.009
+SIM-00226;Aceptada;2025-01-18;2025-01-18;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;325083
+SIM-00227;Aceptada;2025-03-01;2025-03-07;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;447013
+SIM-00228;Aceptada;2025-02-06;;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;473.725
+SIM-00229;Aceptada;2025-04-20;2025-04-20;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Construcción;2001771
+SIM-00230;Aceptada;07-04-2025;2025-04-11;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;317524
+SIM-00231;Aceptada;2025-05-24;2025-05-27;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 08 SpA;76.108.000-8;Computación;501.242
+SIM-00232;Aceptada;2025-01-21;;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;746785
+SIM-00233;Aceptada;2025-02-18;2025-02-22;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 06 SpA;76.106.000-6;Aseo;1154869
+SIM-00234;Aceptada;2025-01-04;2025-01-05;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;129.588
+SIM-00235;Aceptada;2025-03-14;2025-03-18;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;663848
+SIM-00236;Aceptada;2025-05-01;2025-05-03;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;1532577
+SIM-00237;Aceptada;2025-01-05;2025-01-09;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;571.733
+SIM-00238;Aceptada;2025-05-26;2025-05-29;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;2398567
+SIM-00239;Aceptada;2025-06-14;2025-06-17;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 10 SpA;76.110.000-0;Aseo;47500
+SIM-00240;Aceptada;20-01-2025;;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;1.701.469
+SIM-00241;Aceptada;2025-02-08;2025-02-12;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;405001
+SIM-00242;Aceptada;2025-05-22;2025-05-22;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;477606
+SIM-00243;Aceptada;2025-02-15;2025-02-15;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;470.064
+SIM-00244;Aceptada;2025-01-21;2025-01-24;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;399416
+SIM-00245;Aceptada;2025-06-16;2025-06-16;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;332039
+SIM-00246;Aceptada;2025-01-22;2025-01-25;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;665.911
+SIM-00247;Aceptada;2025-06-27;2025-06-30;Licitación Pública;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;717571
+SIM-00248;Aceptada;2025-02-23;2025-03-01;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;1404203
+SIM-00249;Aceptada;2025-05-19;2025-05-25;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;3.834.292
+SIM-00250;Aceptada;22-04-2025;2025-04-22;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;120299
+SIM-00251;Aceptada;2025-04-26;2025-04-28;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;519305
+SIM-00252;Aceptada;2025-06-08;2025-06-09;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;685.629
+SIM-00253;Aceptada;2025-03-23;2025-03-23;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Alimentos;308043
+SIM-00254;Aceptada;2025-05-23;2025-05-26;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;570256
+SIM-00255;Aceptada;2025-04-10;2025-04-15;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;161.640
+SIM-00256;Aceptada;2025-02-07;2025-02-10;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;241891
+SIM-00257;Aceptada;2025-06-10;2025-06-14;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 09 SpA;76.109.000-9;Alimentos;232502
+SIM-00258;Aceptada;2025-06-08;2025-06-14;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Computación;272.796
+SIM-00259;Aceptada;2025-06-27;2025-06-29;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 03 SpA;76.103.000-3;Computación;160989
+SIM-00260;Aceptada;04-03-2025;2025-03-06;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 10 SpA;76.110.000-0;Servicios profesionales;1183318
+SIM-00261;Aceptada;2025-05-20;2025-05-26;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;3.307.526
+SIM-00262;Aceptada;2025-06-27;2025-07-03;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Aseo;1137413
+SIM-00263;Aceptada;2025-06-18;2025-06-21;Trato Directo;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;797376
+SIM-00264;Aceptada;2025-06-27;2025-06-27;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;1.041.923
+SIM-00265;Aceptada;2025-04-01;2025-04-05;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 04 SpA;76.104.000-4;Construcción;772832
+SIM-00266;Aceptada;2025-03-08;2025-03-13;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;481452
+SIM-00267;Aceptada;2025-06-23;2025-06-27;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;422.462
+SIM-00268;Aceptada;2025-03-29;2025-03-30;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Construcción;470306
+SIM-00269;Aceptada;2025-03-18;2025-03-23;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;1050593
+SIM-00270;Aceptada;26-03-2025;2025-03-29;Convenio Marco;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 03 SpA;76.103.000-3;Aseo;188.998
+SIM-00271;Aceptada;2025-06-07;2025-06-10;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;588124
+SIM-00272;Aceptada;2025-01-17;2025-01-23;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 04 SpA;76.104.000-4;Aseo;1049023
+SIM-00273;Aceptada;2025-06-21;2025-06-25;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;1.592.080
+SIM-00274;Aceptada;2025-03-31;2025-04-03;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 03 SpA;76.103.000-3;Servicios profesionales;1452854
+SIM-00275;Aceptada;2025-03-22;2025-03-24;Convenio Marco;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;139604
+SIM-00276;Aceptada;2025-02-05;2025-02-08;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;86.949
+SIM-00277;Aceptada;2025-02-05;2025-02-11;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;401232
+SIM-00278;Aceptada;2025-04-09;;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;451494
+SIM-00279;Aceptada;2025-01-22;2025-01-28;Compra Ágil;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;887.266
+SIM-00280;Aceptada;28-04-2025;2025-05-04;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;1348439
+SIM-00281;Aceptada;2025-05-20;2025-05-22;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Servicios profesionales;613056
+SIM-00282;Aceptada;2025-01-27;2025-02-01;Licitación Pública;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 12 SpA;76.112.000-2;Construcción;869.239
+SIM-00283;Aceptada;2025-01-23;2025-01-23;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;874715
+SIM-00284;Aceptada;2025-02-05;2025-02-11;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;299061
+SIM-00285;Aceptada;2025-03-10;;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;580.964
+SIM-00286;Aceptada;2025-03-12;2025-03-13;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 08 SpA;76.108.000-8;Computación;685745
+SIM-00287;Aceptada;2025-06-23;2025-06-24;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 05 SpA;76.105.000-5;Construcción;540255
+SIM-00288;Aceptada;2025-01-24;2025-01-29;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Computación;3.064.853
+SIM-00289;Aceptada;2025-04-12;2025-04-15;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 05 SpA;76.105.000-5;Computación;1488387
+SIM-00290;Aceptada;03-02-2025;2025-02-06;Licitación Pública;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 03 SpA;76.103.000-3;Alimentos;1901472
+SIM-00291;Aceptada;2025-01-01;;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Alimentos;22.529
+SIM-00292;Aceptada;2025-04-06;2025-04-11;Compra Ágil;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;155500
+SIM-00293;Aceptada;2025-06-30;2025-07-01;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 04 SpA;76.104.000-4;Servicios profesionales;420641
+SIM-00294;Aceptada;2025-06-28;2025-06-28;Convenio Marco;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;2.179.522
+SIM-00295;Aceptada;2025-01-23;2025-01-23;Compra Ágil;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 01 SpA;76.101.000-1;Aseo;135405
+SIM-00296;Aceptada;2025-02-04;2025-02-09;Licitación Pública;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 05 SpA;76.105.000-5;Servicios profesionales;105290
+SIM-00297;Aceptada;2025-02-24;2025-02-25;Trato Directo;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 02 SpA;76.102.000-2;Aseo;3.484.665
+SIM-00298;Aceptada;2025-02-05;2025-02-09;Trato Directo;Municipalidad Ejemplo Norte;69.000.001-1;Proveedor Ficticio 07 SpA;76.107.000-7;Computación;864013
+SIM-00299;Aceptada;2025-06-15;2025-06-19;Compra Ágil;Municipalidad Ejemplo Sur;69.000.002-2;Proveedor Ficticio 01 SpA;76.101.000-1;Alimentos;876393
+SIM-00300;Aceptada;05-06-2025;2025-06-10;Convenio Marco;Servicio de Salud Ejemplo;69.000.003-3;Proveedor Ficticio 01 SpA;76.101.000-1;Construcción;248.370
+SIM-00011;Aceptada;2025-02-05;2025-02-05;Trato Directo;Liceo Ejemplo;69.000.004-4;Proveedor Ficticio 02 SpA;76.102.000-2;Servicios profesionales;202828

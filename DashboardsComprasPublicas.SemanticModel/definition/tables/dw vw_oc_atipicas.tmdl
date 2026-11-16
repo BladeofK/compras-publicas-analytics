@@ -1,0 +1,68 @@
+table 'dw vw_oc_atipicas'
+	lineageTag: cd86f15e-17de-4c2a-bff8-374cc87041a1
+
+	measure 'Órdenes atípicas' = COUNTROWS('dw vw_oc_atipicas')
+		formatString: #,0
+		lineageTag: 507f974c-d983-49bf-85d4-b8d0a56a3fc6
+
+	column oc_codigo
+		dataType: string
+		lineageTag: 091462e4-6499-48e8-9c76-b557a2d981ea
+		summarizeBy: none
+		sourceColumn: oc_codigo
+
+		annotation SummarizationSetBy = Automatic
+
+	column organismo
+		dataType: string
+		lineageTag: f13e8205-e1c1-480a-93ce-7cfcb3686c1e
+		summarizeBy: none
+		sourceColumn: organismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedor
+		dataType: string
+		lineageTag: fa1e9097-2702-4c21-9461-6de044003529
+		summarizeBy: none
+		sourceColumn: proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column rubro
+		dataType: string
+		lineageTag: 6f2f51e5-72e8-49c0-84ae-d774ea179082
+		summarizeBy: none
+		sourceColumn: rubro
+
+		annotation SummarizationSetBy = Automatic
+
+	column monto_clp
+		dataType: double
+		formatString: #,0
+		lineageTag: e2035bb1-a3ea-4c9e-bc4c-dabb8a1d9802
+		summarizeBy: none
+		sourceColumn: monto_clp
+
+		annotation SummarizationSetBy = User
+
+	column p99_rubro
+		dataType: double
+		formatString: #,0
+		lineageTag: 15ef3544-bf56-49b8-ab61-304793416ba4
+		summarizeBy: none
+		sourceColumn: p99_rubro
+
+		annotation SummarizationSetBy = User
+
+	partition 'dw vw_oc_atipicas' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_oc_atipicas = Origen{[Schema="dw",Item="vw_oc_atipicas"]}[Data]
+				in
+				    dw_vw_oc_atipicas
+
+	annotation PBI_ResultType = Table
+

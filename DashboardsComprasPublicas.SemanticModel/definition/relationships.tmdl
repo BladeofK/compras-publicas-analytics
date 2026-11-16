@@ -1,0 +1,14 @@
+relationship AutoDetected_b63d8b52-1619-40b6-ba47-4259f372f5c2
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'dw vw_gasto_por_modalidad'.modalidad
+	toColumn: 'dw vw_estadisticas_modalidad'.modalidad
+
+relationship AutoDetected_6291bed5-2972-4b2c-8fd1-68fc9f9ba738
+	fromColumn: 'dw vw_oc_atipicas'.organismo
+	toColumn: 'dw vw_concentracion_organismo'.organismo
+
+relationship 4d716b73-8804-5802-ede5-6789e2fa9501
+	fromColumn: 'dw vw_top_proveedores_organismo'.organismo
+	toColumn: 'dw vw_concentracion_organismo'.organismo
+

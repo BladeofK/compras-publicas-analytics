@@ -1,0 +1,30 @@
+table 'dw vw_concentracion_ordenes'
+	lineageTag: 9b5ccb2f-c970-45bc-b8fb-5ece7e9d4e69
+
+	column grupo
+		dataType: string
+		lineageTag: a335ebc6-6fc4-4c92-a194-4cb28e1659a2
+		summarizeBy: none
+		sourceColumn: grupo
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_monto
+		dataType: double
+		lineageTag: 9d2d630d-d51f-4403-bb70-21a2447943c5
+		summarizeBy: sum
+		sourceColumn: pct_monto
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'dw vw_concentracion_ordenes' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_concentracion_ordenes = Origen{[Schema="dw",Item="vw_concentracion_ordenes"]}[Data]
+				in
+				    dw_vw_concentracion_ordenes
+

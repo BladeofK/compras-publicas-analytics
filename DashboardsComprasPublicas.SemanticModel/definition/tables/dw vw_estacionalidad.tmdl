@@ -1,0 +1,63 @@
+table 'dw vw_estacionalidad'
+	lineageTag: d2e3e355-5a65-4299-90a6-1f10ede48f00
+
+	measure 'Monto mensual (mil millones)' = DIVIDE(SUM('dw vw_estacionalidad'[monto_clp]), 1000000000)
+		formatString: #,0
+		lineageTag: d8b66c5a-96b5-4d67-ac86-4b4f31d6b864
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: 84f7756e-5d9c-41f2-bf81-16897fefc1f7
+		summarizeBy: sum
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 24b9d7d1-2265-4f15-9358-8e41f6d64071
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_oc
+		dataType: int64
+		formatString: #,0
+		lineageTag: e3ef8693-4dc1-4653-97fb-cc8bb42a9680
+		summarizeBy: sum
+		sourceColumn: n_oc
+
+		annotation SummarizationSetBy = Automatic
+
+	column monto_clp
+		dataType: double
+		lineageTag: 22307698-f845-45b6-ae93-f65cd35f8e3e
+		summarizeBy: sum
+		sourceColumn: monto_clp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mes_nombre = SWITCH('dw vw_estacionalidad'[mes], 1, "Ene", 2, "Feb", 3, "Mar", 4, "Abr", 5, "May", 6, "Jun", 7, "Jul", 8, "Ago", 9, "Sep", 10, "Oct", 11, "Nov", 12, "Dic")
+		dataType: string
+		lineageTag: 9891840c-7749-4849-99e1-0cb2d14c06e2
+		summarizeBy: none
+		sortByColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'dw vw_estacionalidad' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_estacionalidad = Origen{[Schema="dw",Item="vw_estacionalidad"]}[Data]
+				in
+				    dw_vw_estacionalidad
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "e7de36a769d94801c84d",
+  "position": {
+    "x": 32.107023411371237,
+    "y": 120,
+    "z": 0,
+    "height": 150,
+    "width": 380,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "Órdenes atípicas"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.Órdenes atípicas",
+              "nativeQueryRef": "Órdenes atípicas"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dw vw_oc_atipicas"
+                  }
+                },
+                "Property": "Órdenes atípicas"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "value": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dw vw_oc_atipicas.Órdenes atípicas"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

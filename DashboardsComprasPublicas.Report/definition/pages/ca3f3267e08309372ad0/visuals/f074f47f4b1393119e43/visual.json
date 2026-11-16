@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "f074f47f4b1393119e43",
+  "position": {
+    "x": 32.107023411371237,
+    "y": 652,
+    "z": 3000,
+    "height": 52,
+    "width": 1215.7859531772576,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Solo hay datos de enero a junio de 2026: todavía no se puede ver el cierre de año ni distinguir un patrón estacional de una tendencia. El monto mensual sube hasta marzo y baja en mayo, sin una dirección clara.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#404040"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

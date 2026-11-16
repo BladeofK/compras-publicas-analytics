@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "b45623d82c2b6d917cf6",
+  "position": {
+    "x": 865.8193979933111,
+    "y": 126.2876254180602,
+    "z": 2000,
+    "height": 181.9397993311037,
+    "width": 382.07357859531777,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_gasto_por_modalidad"
+                    }
+                  },
+                  "Property": "% monto Trato Directo"
+                }
+              },
+              "queryRef": "dw vw_gasto_por_modalidad.% monto Trato Directo",
+              "nativeQueryRef": "% monto Trato Directo"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dw vw_gasto_por_modalidad"
+                  }
+                },
+                "Property": "% monto Trato Directo"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

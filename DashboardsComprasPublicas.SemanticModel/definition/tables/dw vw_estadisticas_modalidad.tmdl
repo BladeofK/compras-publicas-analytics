@@ -1,0 +1,49 @@
+table 'dw vw_estadisticas_modalidad'
+	lineageTag: 12f8d559-75fb-4b36-815a-5bb5511c55cd
+
+	column modalidad
+		dataType: string
+		lineageTag: 15f13157-dc80-4f10-9824-e8200a2243e2
+		summarizeBy: none
+		sourceColumn: modalidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_oc
+		dataType: int64
+		formatString: 0
+		lineageTag: 60ec48d8-d028-4438-a5de-cd8b906a952a
+		summarizeBy: sum
+		sourceColumn: n_oc
+
+		annotation SummarizationSetBy = Automatic
+
+	column promedio_clp
+		dataType: double
+		lineageTag: 8660921d-3949-4b16-b11b-7fa2d18bac97
+		summarizeBy: sum
+		sourceColumn: promedio_clp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mediana_clp
+		dataType: double
+		lineageTag: a55356af-e70a-47b3-a14b-14c9ff0380e5
+		summarizeBy: sum
+		sourceColumn: mediana_clp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'dw vw_estadisticas_modalidad' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_estadisticas_modalidad = Origen{[Schema="dw",Item="vw_estadisticas_modalidad"]}[Data]
+				in
+				    dw_vw_estadisticas_modalidad
+

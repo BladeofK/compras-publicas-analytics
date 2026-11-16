@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "a83e6d10f5c27b94e0d1",
+  "position": {
+    "x": 428,
+    "y": 192,
+    "z": 5000,
+    "height": 78,
+    "width": 819.89297658862881,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Una orden es atípica si supera el percentil 99 de su rubro: un monto que solo alcanza 1 de cada 100 órdenes de ese rubro (se calcula en rubros con 30 órdenes o más). Atípico no significa irregular: puede tener una explicación legítima o ser un error de digitación. Sirve para decidir qué revisar primero.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#404040"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

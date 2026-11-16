@@ -1,0 +1,24 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CL
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dw vw_estadisticas_modalidad","dw vw_gasto_por_modalidad","dw vw_concentracion_ordenes","dw vw_top_proveedores_organismo","dw vw_estacionalidad","dw vw_concentracion_organismo","dw vw_oc_atipicas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'dw vw_estadisticas_modalidad'
+ref table 'dw vw_gasto_por_modalidad'
+ref table 'dw vw_concentracion_ordenes'
+ref table 'dw vw_top_proveedores_organismo'
+ref table 'dw vw_estacionalidad'
+ref table 'dw vw_concentracion_organismo'
+ref table 'dw vw_oc_atipicas'
+
+ref cultureInfo es-ES
+

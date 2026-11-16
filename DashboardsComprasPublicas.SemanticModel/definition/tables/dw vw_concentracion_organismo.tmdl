@@ -1,0 +1,40 @@
+table 'dw vw_concentracion_organismo'
+	lineageTag: a2b73837-303e-4119-9b5b-c14aa838be3f
+
+	column organismo
+		dataType: string
+		lineageTag: af4bf6be-44d8-43d4-b716-00447d978532
+		summarizeBy: none
+		sourceColumn: organismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_proveedores
+		dataType: int64
+		formatString: #,0
+		lineageTag: 4a04a7d3-74d7-4861-9a44-c2439ae867e6
+		summarizeBy: none
+		sourceColumn: n_proveedores
+
+		annotation SummarizationSetBy = User
+
+	column hhi
+		dataType: double
+		formatString: #,0
+		lineageTag: 17d2f675-e5c8-45d7-b3b3-b74cd4367352
+		summarizeBy: none
+		sourceColumn: hhi
+
+		annotation SummarizationSetBy = User
+
+	partition 'dw vw_concentracion_organismo' = m
+		mode: import
+		source =
+				let
+				    Origen = PostgreSQL.Database("localhost:5432", "compras"),
+				    dw_vw_concentracion_organismo = Origen{[Schema="dw",Item="vw_concentracion_organismo"]}[Data]
+				in
+				    dw_vw_concentracion_organismo
+
+	annotation PBI_ResultType = Table
+

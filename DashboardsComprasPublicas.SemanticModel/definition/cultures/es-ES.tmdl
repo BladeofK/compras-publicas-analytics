@@ -1,0 +1,242 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dw_vw_concentracion_organismo.organismo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_concentracion_organismo",
+			          "ConceptualProperty": "organismo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Organismo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_concentracion_organismo.n_proveedores": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_concentracion_organismo",
+			          "ConceptualProperty": "n_proveedores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "N° de proveedores": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_concentracion_organismo.hhi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_concentracion_organismo",
+			          "ConceptualProperty": "hhi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Índice HHI": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_top_proveedores_organismo.ranking": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_top_proveedores_organismo",
+			          "ConceptualProperty": "ranking"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Puesto del proveedor (1 = el que más vende al organismo)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_estacionalidad.mes_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_estacionalidad",
+			          "ConceptualProperty": "mes_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_estacionalidad.monto_mensual_mil_millones": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_estacionalidad",
+			          "ConceptualProperty": "Monto mensual (mil millones)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monto (mil millones)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_oc_atipicas.rubro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_oc_atipicas",
+			          "ConceptualProperty": "rubro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rubro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_oc_atipicas.oc_codigo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_oc_atipicas",
+			          "ConceptualProperty": "oc_codigo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Orden de compra": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_oc_atipicas.organismo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_oc_atipicas",
+			          "ConceptualProperty": "organismo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Organismo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_oc_atipicas.monto_clp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_oc_atipicas",
+			          "ConceptualProperty": "monto_clp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monto de la orden ($)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dw_vw_oc_atipicas.p99_rubro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dw vw_oc_atipicas",
+			          "ConceptualProperty": "p99_rubro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Umbral del rubro, p99 ($)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

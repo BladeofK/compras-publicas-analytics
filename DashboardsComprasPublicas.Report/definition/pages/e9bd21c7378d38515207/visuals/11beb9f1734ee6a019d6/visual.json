@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "11beb9f1734ee6a019d6",
+  "position": {
+    "x": 428,
+    "y": 120,
+    "z": 1000,
+    "height": 64,
+    "width": 819.89297658862881,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dw vw_oc_atipicas"
+                    }
+                  },
+                  "Property": "rubro"
+                }
+              },
+              "queryRef": "dw vw_oc_atipicas.rubro",
+              "nativeQueryRef": "rubro",
+              "displayName": "Rubro",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

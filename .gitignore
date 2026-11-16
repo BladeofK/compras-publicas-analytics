@@ -1,0 +1,22 @@
+# Configuración local y secretos
+.env
+.vscode/
+
+# Notas de trabajo locales (no se publican)
+CLAUDE.md
+
+# Datos reales (no se versionan; ver README)
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Power BI: caché con los datos cargados, ajustes locales y archivos exportados
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+*.pbix
+/DashboardsComprasPublicas.pdf

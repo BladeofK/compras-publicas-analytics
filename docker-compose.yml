@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: compras
+      POSTGRES_PASSWORD: compras
+      POSTGRES_DB: compras
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Se ejecutan solo la primera vez que se crea el volumen: 01_schema y 02_vistas
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U compras"]
+      interval: 5s
+      retries: 10
+
+  etl:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg2://compras:compras@db:5432/compras
+      RAW_DIR: /app/data/raw
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+    profiles: ["etl"]   # docker compose --profile etl run --rm etl
+
+volumes:
+  pgdata:

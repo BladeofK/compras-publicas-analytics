@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "3e9ca3601e2a744a36da",
+  "position": {
+    "x": 647.89297658862881,
+    "y": 572,
+    "z": 3000,
+    "height": 132,
+    "width": 600,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Qué es el HHI? Un índice de concentración que va de 0 a 10.000: mientras más alto, más se concentra el gasto en pocos proveedores. Un valor alto puede deberse a un solo contrato grande; concentrado no significa irregular.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#404040"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La tabla incluye solo organismos con 10 proveedores o más. Elige uno en el filtro para ver sus 10 mayores proveedores.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#404040"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

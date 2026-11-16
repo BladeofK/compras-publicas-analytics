@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "f4d6e2aaa32a42857843",
+  "position": {
+    "x": 32.107023411371237,
+    "y": 652,
+    "z": 4000,
+    "height": 52,
+    "width": 1215.7859531772576,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Qué es la mediana? Es el monto de la orden típica: la mitad de las órdenes cuesta menos y la otra mitad, más. El promedio sube mucho por unas pocas órdenes muy grandes; por eso la mediana describe mejor una compra habitual.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#404040"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
